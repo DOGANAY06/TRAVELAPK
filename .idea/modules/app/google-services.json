@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "923630504387",
+    "firebase_url": "https://gezgorekle.firebaseio.com",
+    "project_id": "gezgorekle",
+    "storage_bucket": "gezgorekle.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923630504387:android:9a900d5ffbf0726d9f9576",
+        "android_client_info": {
+          "package_name": "com.dogan.gezgoranlat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923630504387-ptvjoijvt765k4r8g2dudknn1c77a7in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5A1UOAcGuloxGcITok8_u-aqRZD6WC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923630504387-ptvjoijvt765k4r8g2dudknn1c77a7in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923630504387:android:647e6119cbda48769f9576",
+        "android_client_info": {
+          "package_name": "com.dogan.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "923630504387-cb33haufee18jk88iijud217f9d6it42.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dogan.travel",
+            "certificate_hash": "0b26892b80aab0d4fd71c4e8a4c1d739cc3ea12a"
+          }
+        },
+        {
+          "client_id": "923630504387-ptvjoijvt765k4r8g2dudknn1c77a7in.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAB5A1UOAcGuloxGcITok8_u-aqRZD6WC0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "923630504387-ptvjoijvt765k4r8g2dudknn1c77a7in.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

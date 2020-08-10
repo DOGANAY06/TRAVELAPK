@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.KullaniciActivity">
+
+    <EditText
+        android:id="@+id/emailtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        android:ems="10"
+        android:hint="Email adresinizi giriniz"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/passwordtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:ems="10"
+        android:hint="Sifrenizi giriniz"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="@+id/emailtext"
+        app:layout_constraintTop_toBottomOf="@+id/emailtext" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="128dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginBottom="9dp"
+        android:src="@drawable/logom"
+        app:layout_constraintBottom_toTopOf="@+id/emailtext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/giris"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F44336"
+        android:onClick="girisyap"
+        android:text="Giriş Yap"
+        app:layout_constraintBaseline_toBaselineOf="@+id/button2"
+        app:layout_constraintStart_toStartOf="@+id/passwordtext" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginLeft="33dp"
+        android:layout_marginTop="48dp"
+        android:background="#F44336"
+        android:onClick="kayit"
+        android:text="Kayit Ol"
+        app:layout_constraintStart_toEndOf="@+id/giris"
+        app:layout_constraintTop_toBottomOf="@+id/passwordtext" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:foregroundGravity="center|bottom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        app:adSize="SMART_BANNER"
+        app:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="497dp"></com.google.android.gms.ads.AdView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

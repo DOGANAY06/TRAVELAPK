@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1072890235495",
+    "firebase_url": "https://travelling-14961.firebaseio.com",
+    "project_id": "travelling-14961",
+    "storage_bucket": "travelling-14961.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072890235495:android:76ea850995d93a1334e2c2",
+        "android_client_info": {
+          "package_name": "com.dogan.travel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072890235495-peoojrgf2vu8b6444b6jgfk0isv90ehf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArNyV2BdKkOfPV5pKHK_WAZxmWUMLYBKY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072890235495-peoojrgf2vu8b6444b6jgfk0isv90ehf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
